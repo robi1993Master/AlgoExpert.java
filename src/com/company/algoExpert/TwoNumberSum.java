@@ -24,7 +24,6 @@ public class TwoNumberSum {
 
         for (int num : array) {
             int potentialMatch = targetSum - num;
-
             if (numbers.contains(potentialMatch)) {
                 return new int[]{potentialMatch, num};
             } else {
